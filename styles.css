@@ -1,0 +1,31 @@
+* { font-family: verdana}
+h1 {
+  height: 20px;
+  padding: 30px;
+  color: beige;
+  font-family: Verdana;
+  text-align:center;}
+.col-centered { margin-left: auto;
+      margin: auto;
+      width: 400px;
+  }
+.project {
+  background-color: beige;
+}
+.header {
+        background-color: teal;
+        padding: 10px;
+}
+.round {border-radius: 100%;
+      height: 27%;
+      width: 27%;
+      border: 7px beige solid;
+      }
+.projectimg {
+    height: 300px; align: right;
+}
+p {font-size: 12px;
+  padding: 10px
+}
+h3 {padding: 10px 10px 0px 10px;
+}
