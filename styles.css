@@ -38,4 +38,17 @@ h3 {padding: 10px 10px 0px 10px;
 			border: 4px teal solid;
 			margin: 5px;
 			display: inline-block;
-			}
+      background: #333;
+      overflow: hidden;
+}
+
+/* Fancy hover effect for things */
+.thumbnail .hover-fancy{
+  opacity: .6;
+  transition: all ease-out 200ms;
+}
+
+.thumbnail:hover .hover-fancy{
+  opacity: 1;
+  transform: scalex(1.05) scaley(1.05);
+}
