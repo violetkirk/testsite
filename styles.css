@@ -46,12 +46,13 @@ h3 {padding: 10px 10px 0px 10px;
 .hover-saturate{
   opacity: 1;
   -webkit-filter: saturate(.25) brightness(1.25);
-  filter: saturate(.5);
+  filter: saturate(.25) brightness 1.25;
   transition: all ease-out 200ms;
 }
 
 .hover-saturate:hover{
   opacity: 1;
   filter: saturate(1) brightness(1);
-  -webkit-filter: saturate(1);
+  -webkit-filter: saturate(1) brightness(1);
+  transform: scale(1.05);
 }
