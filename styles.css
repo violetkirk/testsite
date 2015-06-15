@@ -43,12 +43,15 @@ h3 {padding: 10px 10px 0px 10px;
 }
 
 /* Fancy hover effect for things */
-.thumbnail .hover-fancy{
-  opacity: .6;
+.hover-saturate{
+  opacity: 1;
+  -webkit-filter: saturate(.25) brightness(1.25);
+  filter: saturate(.5);
   transition: all ease-out 200ms;
 }
 
-.thumbnail:hover .hover-fancy{
+.hover-saturate:hover{
   opacity: 1;
-  transform: scalex(1.05) scaley(1.05);
+  filter: saturate(1) brightness(1);
+  -webkit-filter: saturate(1);
 }
