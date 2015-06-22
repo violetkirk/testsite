@@ -16,11 +16,12 @@ h1 {
 .header {
         background-color: #5a9da6;
         padding: 10px;
+        background-image: url(http://33.media.tumblr.com/76e42c552b96a98dd2032c60208b1aff/tumblr_inline_nq72j7UXYH1qhq5d4_500.gif);
 }
 .round {border-radius: 100%;
       height: 100px;
       width: 100px;
-      border: 7px #d4e0c9 solid;
+      border: 6px #d4e0c9 solid;
       }
 .projectimg {
     max-height: 100%; 
@@ -48,7 +49,8 @@ h3 {padding: 10px 10px 0px 10px;
 .hover-saturate{
   opacity: 1;
   -webkit-filter: saturate(.25) brightness(1.25);
-  filter: saturate(.25) brightness 1.25;
+  -moz-filter: satruate(.25) brightness(1.25);
+  filter: saturate(.25) brightness(1.25);
   transition: all ease-out 200ms;
 }
 
@@ -56,6 +58,7 @@ h3 {padding: 10px 10px 0px 10px;
   opacity: 1;
   filter: saturate(1) brightness(1);
   -webkit-filter: saturate(1) brightness(1);
+  -moz-filter: saturate(1) brightness (1);
   
 }
 .clearfix:after {
